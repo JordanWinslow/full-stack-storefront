@@ -1,5 +1,6 @@
 const express = require("express")
 const bodyParser = require("body-parser")
+const path = require("path")
 
 const adminRoutes = require("./routes/admin")
 const userRoutes = require("./routes/users")
@@ -13,10 +14,6 @@ server.use(bodyParser.urlencoded({ extended: false }))
 server.use("/admin", adminRoutes)
 server.use(userRoutes)
 server.use((request, response, next) => {
-  response
-    .status(404)
-    .send(
-      "<title>404 - Page not Found</title><h1>404 - Page Not Found</h1><p><a href='/'>Click Here</a> to return to the home page.</p>"
-    )
+	response.status(404).sendFile(path.join(__dirname, "views", "404.html"))
 })
 server.listen(PORT)
