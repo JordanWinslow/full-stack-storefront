@@ -1,0 +1,31 @@
+{
+  "name": "full-stack-storefront",
+  "version": "1.0.0",
+  "description": "This project expands on Node.js and Express.js foundational knowledge to build the back-end logic for an online store.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JordanWinslow/full-stack-storefront.git"
+  },
+  "keywords": [
+    "full stack",
+    "education",
+    "ecommerce"
+  ],
+  "author": "Jordan Winslow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JordanWinslow/full-stack-storefront/issues"
+  },
+  "homepage": "https://github.com/JordanWinslow/full-stack-storefront#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
