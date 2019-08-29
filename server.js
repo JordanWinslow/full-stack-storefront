@@ -10,7 +10,7 @@ const server = express()
 // --------------------------------- //
 
 server.use(bodyParser.urlencoded({ extended: false }))
-server.use(adminRoutes)
+server.use("/admin", adminRoutes)
 server.use(userRoutes)
 server.use((request, response, next) => {
   response
