@@ -1,4 +1,4 @@
-# full-stack-storefront
+# Node.js Ecommerce Content Management System Proof of Concept
 
 <p>I created this Node.js server entirely from scratch with no pre-existing code snippets.</p>
 <p>It features an admin page where users can enter product names, descriptions and prices into an HTML form which then uses express.js routing and the express-handlebars templating engine to dynamically display that content along with a randomly generated image in a responsive grid on the "Shop" page.</p>
