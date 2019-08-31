@@ -1,5 +1,7 @@
 # full-stack-storefront
 
+<p>I created this Node.js server entirely from scratch with no pre-existing code snippets.</p>
+<p>It features an admin page where users can enter product names, descriptions and prices into an HTML form which then uses express.js routing and the express-handlebars templating engine to dynamically display that content along with a randomly generated image in a responsive grid on the "Shop" page.</p>
 <p>This project is focused primarily on back-end technologies and demonstrates knowledge in the following topics:</p>
 
 <ul>
