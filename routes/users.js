@@ -5,12 +5,13 @@ const products = adminData.products
 
 // __dirname is /routes and ".." tells us to go back one level. We could say ../ but .. is a better habit to get into since it works universally on windows or linux/mac
 router.get("/", (request, response, next) => {
-	response.render("shop", {
-		layout: false,
+  response.render("shop", {
     pageTitle: "Full-Stack Storefront | Shop",
     hasProducts: products.length > 0,
-    products: products
-	})
+    products: products,
+    activeShop: true,
+    productCSS: true
+  })
 })
 
 module.exports = router
