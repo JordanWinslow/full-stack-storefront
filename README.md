@@ -15,5 +15,5 @@
 <li>Placeholder/Representative content to demonstrate minimal viable product implementation
 </ul>
 
-<p>Though this project utilizes CSS & basic HTML metadata, it is NOT a demonstration of SEO, CSS or design knowledge and should not be treated as such.</p>
+<p>Though this project utilizes CSS & basic HTML metadata, it is <b>NOT a demonstration of SEO, CSS or design knowledge and should not be treated as such.</b></p>
 <p>For a demonstration of design knowledge, see the following repository: https://github.com/JordanWinslow/ModernWebDesignShowcase1</p>
